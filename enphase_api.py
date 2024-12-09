@@ -6,6 +6,13 @@ load_dotenv(override=True)
 
 envoy_ip = os.getenv("ENPHASE_IP_ADDRESS")
 url = f"http://{envoy_ip}/ivp/livedata/status"
+# Endpoints
+# /production.json
+# /ivp/ensemble/inventory
+# /ivp/ensemble/secctrl
+# /ivp/livedata/status
+
+
 token = os.getenv("ENPHASE_TOKEN")
 headers = {
     "Authorization": f"Bearer {token}"
