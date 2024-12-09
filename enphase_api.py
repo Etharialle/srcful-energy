@@ -6,7 +6,7 @@ import os
 
 load_dotenv(override=True)
 
-envoy_ip = "192.168.4.57"  # Replace with your Envoy's IP address
+envoy_ip = os.getenv("ENPHASE_IP_ADDRESS")
 url = f"http://{envoy_ip}/ivp/ensemble/inventory"
 token = os.getenv("ENPHASE_TOKEN")
 

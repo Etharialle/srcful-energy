@@ -6,7 +6,7 @@
     device_status:
     - envoy.global.ok
     - prop.done
-    last_rpt_date: 1733745436
+    last_rpt_date: 1733748745
     admin_state: 6
     admin_state_str: ENCHG_STATE_READY
     created_date: 1733637001
@@ -15,9 +15,9 @@
     bmu_fw_version: 2.1.38
     communicating: true
     sleep_enabled: false
-    percentFull: 67
-    temperature: 10
-    maxCellTemp: 10
+    percentFull: 68
+    temperature: 9
+    maxCellTemp: 9
     reported_enc_grid_state: grid-tied
     comm_level_sub_ghz: 3
     comm_level_2_4_ghz: 3
@@ -33,7 +33,7 @@
     device_status:
     - envoy.global.ok
     - prop.done
-    last_rpt_date: 1733745612
+    last_rpt_date: 1733748621
     admin_state: 6
     admin_state_str: ENCHG_STATE_READY
     created_date: 1733636916
@@ -44,7 +44,7 @@
     sleep_enabled: false
     percentFull: 67
     temperature: 10
-    maxCellTemp: 11
+    maxCellTemp: 10
     reported_enc_grid_state: grid-tied
     comm_level_sub_ghz: 4
     comm_level_2_4_ghz: 4
@@ -60,7 +60,7 @@
     device_status:
     - envoy.global.ok
     - prop.done
-    last_rpt_date: 1733745462
+    last_rpt_date: 1733748772
     admin_state: 6
     admin_state_str: ENCHG_STATE_READY
     created_date: 1733376510
@@ -70,7 +70,7 @@
     communicating: true
     sleep_enabled: false
     percentFull: 66
-    temperature: 9
+    temperature: 8
     maxCellTemp: 9
     reported_enc_grid_state: grid-tied
     comm_level_sub_ghz: 4
@@ -87,7 +87,7 @@
     device_status:
     - envoy.global.ok
     - prop.done
-    last_rpt_date: 1733745380
+    last_rpt_date: 1733748689
     admin_state: 6
     admin_state_str: ENCHG_STATE_READY
     created_date: 1733620696
@@ -97,8 +97,8 @@
     communicating: true
     sleep_enabled: false
     percentFull: 66
-    temperature: 10
-    maxCellTemp: 11
+    temperature: 9
+    maxCellTemp: 10
     reported_enc_grid_state: grid-tied
     comm_level_sub_ghz: 3
     comm_level_2_4_ghz: 3
@@ -114,7 +114,7 @@
     device_status:
     - envoy.global.ok
     - prop.done
-    last_rpt_date: 1733745407
+    last_rpt_date: 1733748715
     admin_state: 6
     admin_state_str: ENCHG_STATE_READY
     created_date: 1733385158
@@ -125,7 +125,7 @@
     sleep_enabled: false
     percentFull: 66
     temperature: 11
-    maxCellTemp: 12
+    maxCellTemp: 11
     reported_enc_grid_state: grid-tied
     comm_level_sub_ghz: 3
     comm_level_2_4_ghz: 3
@@ -141,7 +141,7 @@
     device_status:
     - envoy.global.ok
     - prop.done
-    last_rpt_date: 1733745552
+    last_rpt_date: 1733748561
     admin_state: 6
     admin_state_str: ENCHG_STATE_READY
     created_date: 1733637029
@@ -152,10 +152,10 @@
     sleep_enabled: false
     percentFull: 66
     temperature: 9
-    maxCellTemp: 10
+    maxCellTemp: 9
     reported_enc_grid_state: grid-tied
-    comm_level_sub_ghz: 5
-    comm_level_2_4_ghz: 5
+    comm_level_sub_ghz: 4
+    comm_level_2_4_ghz: 4
     led_status: 15
     dc_switch_off: false
     encharge_rev: 1
@@ -168,7 +168,7 @@
     device_status:
     - envoy.global.ok
     - prop.done
-    last_rpt_date: 1733745477
+    last_rpt_date: 1733748787
     admin_state: 6
     admin_state_str: ENCHG_STATE_READY
     created_date: 1733389037
@@ -181,8 +181,8 @@
     temperature: 9
     maxCellTemp: 9
     reported_enc_grid_state: grid-tied
-    comm_level_sub_ghz: 2
-    comm_level_2_4_ghz: 2
+    comm_level_sub_ghz: 3
+    comm_level_2_4_ghz: 3
     led_status: 15
     dc_switch_off: false
     encharge_rev: 1
@@ -195,7 +195,7 @@
     device_status:
     - envoy.global.ok
     - prop.done
-    last_rpt_date: 1733745361
+    last_rpt_date: 1733748671
     admin_state: 6
     admin_state_str: ENCHG_STATE_READY
     created_date: 1733636803
@@ -205,7 +205,7 @@
     communicating: true
     sleep_enabled: false
     percentFull: 67
-    temperature: 9
+    temperature: 8
     maxCellTemp: 9
     reported_enc_grid_state: grid-tied
     comm_level_sub_ghz: 4
@@ -222,7 +222,7 @@
     device_status:
     - envoy.global.ok
     - prop.done
-    last_rpt_date: 1733745488
+    last_rpt_date: 1733748797
     admin_state: 6
     admin_state_str: ENCHG_STATE_READY
     created_date: 1733636988
@@ -232,7 +232,7 @@
     communicating: true
     sleep_enabled: false
     percentFull: 66
-    temperature: 9
+    temperature: 8
     maxCellTemp: 9
     reported_enc_grid_state: grid-tied
     comm_level_sub_ghz: 3
@@ -251,14 +251,14 @@
     device_status:
     - envoy.global.ok
     - prop.done
-    last_rpt_date: 1733745618
+    last_rpt_date: 1733748854
     admin_state: 24
     admin_state_str: ENPWR_STATE_OPER_CLOSED
     created_date: 1732642337
     img_load_date: 1732642337
     img_pnum_running: 2.0.6361_rel/22.33
     communicating: true
-    temperature: 53
+    temperature: 52
     comm_level_sub_ghz: 5
     comm_level_2_4_ghz: 5
     mains_admin_state: closed
