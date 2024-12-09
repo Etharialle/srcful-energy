@@ -1,9 +1,14 @@
 import requests
 import yaml
+from dotenv import load_dotenv
+import os
+
+
+load_dotenv(override=True)
 
 envoy_ip = "192.168.4.57"  # Replace with your Envoy's IP address
 url = f"http://{envoy_ip}/ivp/ensemble/inventory"
-token = "token"
+token = os.getenv("ENPHASE_TOKEN")
 
 headers = {
     "Authorization": f"Bearer {token}"
