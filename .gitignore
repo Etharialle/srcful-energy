@@ -1,3 +1,4 @@
 .env
 inventory.yaml
 secctrl.yaml
+output.yaml
